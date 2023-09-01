@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../Assets/font/Inter-Regular.otf);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #232323;
+    background-color: #f6f6f6;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.landing{
+    background: #232323;
+    position: absolute;
+    height: 1000px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    box-sizing: border-box; 
+    min-height: 100vh;
+
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    padding-right: 20px;
+    position: absolute;
+    /* margin-top: ; */
+    left: 20px;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px; 
+}
+.heading{
+    color: white;
+    left: 250px; 
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    word-wrap: break-word;
+    width: 800px;
+    font-weight: 400;
+    margin-top: 60px;
+    /* margin-left: 250px; */
+}
+.sub-text{
+    color: white;
+    width: 747px;
+    /* right: 270px; */
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.50px;
+    word-wrap: break-word;
+    margin-top: 25px;
+    /* margin-left: 250px; */
+}
+.get-started {
+    width: 160px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+    background: #00AB63;
+    border-radius: 100px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 25px;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw; 
+    height: 206px; 
+    left: 50px; 
+  margin-top: 50px;
+    /* position: absolute; */
+    background-color: #000000;
+}
+.image-container {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(255, 252, 252, 0.4);
+    border-radius: 30px;
+}
+
+.image {
+   max-width: 80%;
+   max-height: 80%;
+}
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-top: 50px; 
+    width: 95%;
+    height: 50%;
+    
+}
+.EX{
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    background: #00AB63;
+    border-radius: 100px;
+    /* position: relative; */
+    margin-top: 25px;
+
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .landing {
+        padding: 10px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .heading {
+        font-size: 40px;
+        width: 90%;
+        left: 5%;
+        top: 120px;
+    }
+}
