@@ -6,8 +6,9 @@
 body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    color: #232323;
-    background-color: #f6f6f6;
+    color: black;
+    background-color: #232323;
+    width: 100%;
 }
 *{
     margin: 0;
@@ -15,9 +16,8 @@ body {
 }
 .landing{
     background: #232323;
-    position: absolute;
     height: 1000px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -129,6 +129,41 @@ body {
 
 }
 
+.bodystyle{
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+    padding-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bodystyle>.left{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.bodystyle>.right{
+    width: 712px;
+    height: 712px;  
+    border-radius: 30px;  
+}
+.leftmiddle{
+    margin-top: 48px;
+    margin-bottom: 26px;
+}
+.left>button{
+    height: 50px;
+    width:180px;
+    border-radius: 100px;
+    background-color: #00AB63;
+    border: 0ch;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
 
 @media (min-width: 481px) and (max-width: 767px) {
     .landing {
